@@ -13,7 +13,7 @@
       $temp=$col+1;
       echo "$temp";
     }
-    
+    echo "<br>";
   }
   ?>
 </body>
