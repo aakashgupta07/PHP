@@ -1,11 +1,4 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-</head>
-<body>
-  <?php
+<?php
     $a=35;
     $b=7;
     $sum=$a+$b;
@@ -21,5 +14,3 @@
     echo "<br>Reminder=$rem";
     echo "<br>Exponential=$pow";
     ?>
-</body>
-</html>
