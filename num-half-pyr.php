@@ -1,10 +1,3 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-</head>
-<body>
   <?php
   for($row=0;$row<5;$row++)
   {
@@ -16,5 +9,3 @@
     echo "<br>";
   }
   ?>
-</body>
-</html>
