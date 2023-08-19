@@ -1,11 +1,4 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-</head>
-<body>
-  <?php
+<?php
   $a=5;
   $b=7;
   $c=$a;
@@ -13,5 +6,3 @@
   $b=$c;
     echo"a=$a and b=$b";
   ?>
-</body>
-</html>
