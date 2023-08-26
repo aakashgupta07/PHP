@@ -10,11 +10,10 @@
     return $s;
   }
   echo "Perfect numbers <br>";
-  $arr=array(1,2,3,4,5,6,7,8,9,28,496);
-  for($i=0;$i<count($arr);$i++)
+  for($i=0;$i<10000;$i++)
   {
-    $flag=check_perfect($arr[$i]);
-    if($flag==$arr[$i])
-    echo "$arr[$i]<br>";
+    $flag=check_perfect($i);
+    if($flag==$i)
+    echo "$i<br>";
   }
 ?>
