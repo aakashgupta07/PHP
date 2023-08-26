@@ -12,11 +12,10 @@
     return 1;
   }
   echo "Prime numbers <br>";
-  $arr=array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15);
-  for($i=0;$i<count($arr);$i++)
+  for($i=2;$i<500;$i++)
   {
-    $flag=check_prime($arr[$i]);
+    $flag=check_prime($i);
     if($flag==1)
-    echo "$arr[$i]<br>";
+    echo "$i<br>";
   }
 ?>
